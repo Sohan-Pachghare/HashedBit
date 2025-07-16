@@ -2,22 +2,30 @@ body {
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 119, 255);
+    background-color: #0077ff;
     /* border: 2px solid black; */
     padding: 1rem 5rem 1rem 5rem;
     font-size: 20px;
     height: 2rem;
 }
+
 #logo {
     display: flex;
     align-items: center;
     color: white;
     font-size: 1.8rem;
 }
+
 #logo img {
     height: 40px;
     border-radius: 50%;
@@ -33,6 +41,111 @@ header {
     padding: 1rem;
 }
 #social-link a {
-    text-decoration: none;
     color: white;
 }
+
+/* nav bar  */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+nav a {
+    color: #4f4e4e;
+}
+.aside-main {
+    display: flex;
+
+}
+
+/* hero */
+aside {
+    width: 30%;
+    height: 75vh;
+    font-size: 1.5rem;
+}
+
+aside ul {
+
+  list-style-type: none;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+}
+
+aside ul li a {
+    color: #5e5e5e;
+
+}
+main {
+    width: 70%;
+    padding: 0 1rem;
+    background-color: #e6e6e6;
+}
+
+.main-heading {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: #4f4d4d;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0.5rem;
+    margin: 0.8rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 15px #00000068;
+}
+.card-img{
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.card-heading {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.card-desc {
+    color: #393838;
+}
+
+.card-btn{
+    background-color: #0077ff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 1.8rem;
+    color: white;
+}
+/* footer */
+footer{
+    border-top: 1px solid #e5e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 1rem;
+}
+
