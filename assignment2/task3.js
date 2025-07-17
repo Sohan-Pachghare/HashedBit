@@ -12,7 +12,7 @@ function findTax(salary){
             return salary * 0.3;
         default:
             return NaN;
-    }
+    } 
 
 }
 
