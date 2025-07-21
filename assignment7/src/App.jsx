@@ -3,6 +3,8 @@ import './App.css'
 import getData from './script'
 import Table from './Table'
 import { useEffect } from 'react';
+
+
 function App() {
   const [teams, setTeams] = useState([]);
 
