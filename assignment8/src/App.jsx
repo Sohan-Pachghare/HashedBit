@@ -1,7 +1,7 @@
-import {  BrowserRouter , Routes, Route } from 'react'
+import {  BrowserRouter , Routes, Route } from 'react-router-dom'
 import './App.css'
 import MovieList from "./components/MovieList.jsx";
-import MovieDetail from "./components/MovieDetails.jsx";
+import MovieDetail from "./components/MovieDetail.jsx";
 import BookingDetails from "./components/BookingDetails.jsx";
 
 function App() {
