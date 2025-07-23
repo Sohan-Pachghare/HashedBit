@@ -29,6 +29,7 @@ function MovieDetail() {
       <input
         className="block mt-4 p-2 border w-full"
         placeholder="Your Email"
+        type="email"
         value={email}
         onChange={e => setEmail(e.target.value)}
       />

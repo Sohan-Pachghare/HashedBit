@@ -28,6 +28,7 @@ const Todo = () => {
 					onKeyDown={handlekeyDown}
 
 				/>
+				<button >Add</button>
 			</div>
 			<ul className='mt-5'>
 				{todos.map( (todo, i) => (
