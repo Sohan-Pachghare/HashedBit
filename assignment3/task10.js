@@ -6,4 +6,4 @@ function reverseStr(str) {
     return result;
 }
 
-console.log(reverseStr("iramuK amhsuS"));
+console.log(reverseStr("Sushma Mam"));
